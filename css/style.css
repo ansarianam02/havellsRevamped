@@ -1,5 +1,8 @@
 
 /*common css*/
+html, body {
+    overflow: auto;
+}
 body{
   font-family: SourceSansPro;
   background: url(../img/bg.png);
