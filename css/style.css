@@ -228,8 +228,8 @@ body.doorPage{
 .nav-only-cell{
   display: block !important;
   }
-  .doorPage .main-area{
-    margin-top:10%;
+  .doorPage .main-area{    
+    margin-top:10% !important;
   }
   .register.main-area{
     margin-top:10% !important;
@@ -357,7 +357,7 @@ body.doorPage{
   display: block !important;
   }
   .doorPage .main-area{
-    margin-top:10%;
+    margin-top:10% !important;
   }
   .register.main-area{
     margin-top:10% !important;
