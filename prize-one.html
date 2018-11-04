@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HAVELLS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+</head>
+<body class="doorPage">
+
+
+<nav class="navbar navbar-inverse" >
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#"><img src="/images/icon/icon.png" class="d-inline-block " alt="">
+             <img src="img/icon/icon.png" class="d-inline-block align-top" alt=""> 
+        </a>
+      </div>
+      <div class="navbar-collapse collapse" id="myNavbar" style="height: 1px;" aria-expanded="false">
+        
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#" ><span></span>Terms and conditions</a>
+              </li>
+          <li><a href="#" ><span class=""></span>Contact us</a>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <!--main partion -->
+
+<div class="container main-area stage">
+  <div class="row center-borderr  mt-5 justify-content-md-center ">
+    <!--first partion -->
+    <div class="col-md-10 col-md-offset-1 py-1">
+      <div class="">
+       <div class="row justify-content-md-center ">
+       
+        <p class="congrats-msg yellow-t my-5">
+          You have won an 1.5 ton air conditioner. <span class="fire"></span>
+        </p>
+       <div class="doorContainer happiness">
+        <div class="doorStation ">
+            <div class="closedoor"></div>
+            <div class="prize"></div>
+        </div>
+
+      </div>
+      </div>
+    </div>
+
+    </div>
+   
+     <!--end second partion -->
+  </div>
+
+  <!-- redirect -->
+  <div class="row justify-content-md-center section-redirect visible-md visible-lg visible-sm hidden-xs ">
+      <div class="col-md-10  col-md-offset-1 text-center">        
+         <p class="redirect-msg yellow-t">Redirecting to home page in 10 seconds</p>
+      </div>
+    </div>
+    <!-- end redirect -->
+  </div>
+
+
+
+  <!--redirect for cell -->
+  <div class="container hidden-md hidden-lg hidden-sm visible-xs">
+  <div class="row justify-content-md-center section-redirect">
+      <div class="col-md-10  col-md-offset-1 text-center">        
+         <p class="redirect-msg yellow-t">Redirecting to home page in 10 seconds</p>
+      </div>
+    </div>
+  </div>
+
+    <!-- end redirect for cell-->
+</div>
+ <!-- end main partion -->
+<section class="nav-only-cell mt-5">
+   <!-- Copyright -->
+      <div class="footer-copyright text-center py-2"> All rights reserved, 
+        <a href="https://mdbootstrap.com/bootstrap-tutorial/">Bigcity Promotions, 2018</a>
+      </div>
+      <!-- Copyright -->
+</section>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</body>
+<script type="text/javascript">
+
+  $(document).on('click','.doorStation',function(){
+      $('.closedoor').fadeTo('slow', 1, function()
+      {
+        //change Door Image
+          $(this).css('background-image', 'url(img/open.png)');
+
+
+      }).fadeTo(10, 1,function(){
+        //show Gift and remove happiness
+
+        $( ".prize" ).animate({
+                opacity: 1,   
+          }, 100 ).animate({
+                width: "118%",height: "68%",left: "-9%",top: "13%" ,opacity: 1,   
+          }, 1500 ,function(){
+            //after gift open
+             $('.doorContainer').removeClass('happiness');
+             $('.stage').addClass('stage-congrats');
+          $('.congrats-msg').css('visibility','visible');
+             $('.congrats-msg').animate({              
+               opacity:1 
+             },1500);
+           $('.section-redirect').animate({
+                opacity: 1
+               }, 1500 );
+          });
+
+         
+      });
+  });   
+/*
+opacity: 1;
+    width: 118%;
+    height: 67%;
+    left: -9%;
+    top: 13%;
+    */
+
+  $(document).on('click','.btn-redirect',function(){ 
+      window.location.href = "index.html";
+  })
+</script>
+
+</html>

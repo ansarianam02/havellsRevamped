@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HAVELLS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body class="register-page">
+
+
+
+
+
+
+<nav class="navbar navbar-inverse" style=>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#"><img src="/images/icon/icon.png" class="d-inline-block " alt="">
+             <img src="img/icon/icon.png" class="d-inline-block align-top" alt=""> 
+        </a>
+      </div>
+      <div class="navbar-collapse collapse" id="myNavbar" style="height: 1px;" aria-expanded="false">
+        
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#" ><span></span>Terms and conditions</a>
+              </li>
+          <li><a href="#" ><span class=""></span>Contact us</a>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- <div class="container visible-md visible-lg  hidden-xs  ">
+<div class="row align-items-center NotValid">
+        <div class="col-md-6 col-md-offset-3 col-sm-12 mx-auto"> 
+            <div class="err-msg" >
+                Error messages goes here and the field with error gets highlighted
+            </div>
+        </div>
+       
+    </div>
+</div> -->
+
+
+ <!-- mega for banner -->
+    <div class="container hidden-md hidden-lg hidden-sm visible-xs banner-container my-5">
+        <div class="row align-items-center mt-5 fake">              
+            </div>
+    </div>
+    <!-- end mega for banner  -->
+
+    <!-- mega for happiness -->
+    <div class="container hidden-md hidden-lg hidden-sm visible-xs happ-container mb-5">
+        <div class="row align-items-center mt-4 fake">              
+            </div>
+    </div>
+    <!-- end mega for happiness  -->
+
+ <!--main partion -->
+
+<div class="container main-area register">
+  <div class="row center-border">
+   
+    <div class="col-sm-5 right-partition">
+       <div class="row justify-content-md-center regSection">
+        <div class="col-md-10 col-md-offset-1">
+       <form action="/action_page.php">
+        <div class="red-t m-4  font-weight-bold text-center regist-head">  PLEASE ENTER THE DETAILS BELOW </div>
+         <div class="form-group">   
+            <div class="err-msg" >
+                Error messages goes here and the field with error gets highlighted
+            </div>
+        </div>
+      <div class="form-group">        
+        <input type="text" class="form-control" id="firstname" placeholder="Full name*">
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-control" id="pwd" placeholder="Email ID*">
+      </div>
+       <div class="form-group">
+        <input type="number" class="form-control" id="pwd" placeholder="Mobile number*">
+      </div>
+       <div class="form-group">
+        <select class="form-control" id="exampleFormControlSelect1" placeholder="">
+          <option>State you reside in*</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+       <div class="form-group">
+        <select class="form-control" id="exampleFormControlSelect1" placeholder="">
+          <option>City you reside in*</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>        
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" id="pwd" placeholder="Voucher code*">
+      </div>
+      <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox"> I agree to program’s <a class="red-t cursor" data-toggle="modal" data-target="#myModal"> terms and conditions </a>
+        </label>
+      </div>
+      <div class="form-group  text-center">
+      <label class="form-check-label">
+         <div class="g-recaptcha" data-sitekey="=== Your site key ==="></div>
+        </label>
+      </div>
+
+
+       <div class="form-group">
+        <button type="submit" class="btn btn-submit">Submit</button>
+        </div>
+    </form></div>
+       </div>
+    <!-- OTP section -->
+
+    <div class="row justify-content-md-center otpSection" style="display: none">
+        <div class="col-md-10 col-md-offset-1">
+       <form action="/action_page.php">
+        <div class="row justify-content-md-center gray-t">
+            <div class="col-md-12 mt-5 mb-5 text-center font-weight-bold"> VALIDATE YOUR MOBILE NUMBER </div>
+            <div class="col-md-12 my-2">
+             <div class="form-group">   
+              <div class="err-msg" >
+                  Error messages goes here and the field with error gets highlighted
+              </div>
+            </div></div>
+            <div class="col-md-10 col-md-offset-1 mb-2 mt-2 text-center"> <h6>Please enter the One Time Password (OTP) sent to +91 - 9876543210 </h6></div>
+            <div class="col-md-12 my-5">
+             
+            <div class="form-group">        
+              <input type="text" class="form-control" id="firstname" placeholder="Enter OTP here">
+            </div>
+            </div>
+            <div class="col-md-10 col-md-offset-1 text-center">
+              <label class="form-check-label">
+                Resend OTP in <span class="red-t"> 00:60 seconds</span>
+                </label>
+            </div>
+            <div class="col-md-12  mt-5 mb-5 text-center">
+               <label class="form-check-label">
+                 <div class="g-recaptcha" data-sitekey="=== Your site key ==="></div>
+                </label>
+            </div>
+
+            <div class="col-md-12 mt-4">
+              <div class="form-group">
+                <button type="submit" class="btn btn-submit">VALIDATE WITH OTP</button>
+               </div>
+            </div>  
+        </div>
+      
+     
+     
+
+       </form></div>
+       </div>
+
+     <!-- end OTP -->
+       
+    </div>
+
+    
+     <!--end second partion -->
+
+       <!--first partion -->
+      <div class="col-sm-7 left-partition visible-md visible-lg visible-sm hidden-xs ">
+        <div class="row carousal-row">
+           <div class="col-md-12 carousal-padding-0">
+            <!--carousal -->         
+           
+           <!-- End carousal  -->
+           </div>
+        </div>
+      </div>
+    <!--end first partion -->
+
+  </div>
+</div>
+ <!-- end main partion -->
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade " role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Terms and Condition</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+           We’ve all heard how crucial it is to set intentions, goals and targets. Powerful goals electrify us. Clear intentions energize and pull us forward. Without a clearcut intention, we’re reactive and don’t get around to doing the important things when we want them done. Instead, we spend our time fighting random fires. Without clear intentions, anything might happen. And usually does. Literally, intentions are like the steering wheel on your car. Their whole purpose is to give you control over where you’re going. But when setting intentions or goals, keep in mind that if you can’t measure it, you can’t manage it. Now, it’s good to have intentions at more than one level. When we get up into the more conceptual intentions, such as “I will contribute to the wellbeing of those around me,” these become like a mission statement.
+
+          But then, be sure you move on to decide specifically how you will go about implementing your mission in your daily life. Specifics are essential. How — specifically — will you put your mission into action today? What will you actually DO about your highest intentions? It’s important to set intentions for yourself because this is where the rubber meets the road. Just say “I’m going to do this and this.” It should be nothing big and overpowering. Just some stuff you’re meaning to do or achieve short-term. Be sure to write them down on paper. When you list them out, you can clearly look over your results afterward and check yourself. At the end of today or this time next week, did you do what you said you’d do? Expressed like that, it’s clear that we’re building a kind of internal integrity check within ourselves.
+
+          When you’re first starting to build this new intention-setting skill (habit), it’s important not to pile on too much. Sure, it’s easy to get all excited about turning over a new leaf, but it’s essential that you start where you are NOW, not where you think you SHOULD be. There are things that, from experience, you already know you can do. Set your intentions to do those things (plus perhaps a little bit more) and achieve them. Then, when you’re comfortable doing what you say you’ll do, then you can begin to stretch your intention muscles a little more. But as in any new regimin, begin easy. Begin with what you can actually do. And only after you get comfortable with the intention-setting process should you start going for real growth. Patience – taking small, measured steps – is more than a virtue here. It’s the key to keeping yourself moving forward. (Notice I said patience, not procrastination.) Attempt too much too soon, and the end result will be another round of demotivation and discouragement.
+
+          Instead, go about this logically and gradually: keep your eye on the level you want to reach next year, and let today’s effort take you 1/365th of the way there. Do this, and you’ll see real, measurable progress as well as achievements you’ll truly be proud of. It’s all pretty simple stuff, really. Just training yourself to keep your word to yourself. Instead, go about this logically and gradually: keep your eye on the level you want to reach next year, and let today’s effort take you 1/365th of the way there. Do this, and you’ll see real, measurable progress as well as achievements you’ll truly be proud of. It’s all pretty simple stuff, really. Just training yourself to keep your word to yourself. Instead, go about this logically and gradually: keep your eye on the level you want to reach next year, and let today’s effort take you 1/365th of the way there. Do this, and you’ll see real, measurable progress as well as achievements you’ll truly be proud of. It’s all pretty simple stuff, really. Just training yourself to keep your word to yourself.
+
+          Instead, go about this logically and gradually: keep your eye on the level you want to reach next year, and let today’s effort take you 1/365th of the way there. Do this, and you’ll see real, measurable progress as well as achievements you’ll truly be proud of. It’s all pretty simple stuff, really. Just training yourself to keep your word to yourself. Instead, go about this logically and gradually: keep your eye on the level you want to reach next year, and let today’s effort take you 1/365th of the way there. Do this, and you’ll see real, measurable progress as well as achievements you’ll truly be proud of. It’s all pretty simple stuff, really. Just training yourself to keep your word to yourself. Instead, go about this logically and gradually: keep your eye on t.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- mega for desktop -->
+<div class="container visible-md visible-lg visible-sm hidden-xs mb-5">
+<div class="row align-items-center mt-4 ">         
+     <img src="img/mega.png" class="pull-right" alt="">      
+     <img src="img/happiness.png" class="pull-right" alt="">   <br/><br/>   
+    </div>
+</div>
+<!-- end mega for desktop  -->
+
+
+
+<!-- mega for mobile -->
+<div class="container hidden-md hidden-lg hidden-sm visible-xs mega-container">
+<div class="row align-items-center mt-4 fake">              
+    </div>
+</div>
+<!-- end mega for mobile  -->
+
+
+<section class="footer-section d-none d-sm-block  d-none d-md-block d-lg-block">
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">      
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-2"> All rights reserved, 
+        <a href="https://mdbootstrap.com/bootstrap-tutorial/">Bigcity Promotions, 2018</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+  </section>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</body>
+
+
+<script type="text/javascript">
+  
+  $(document).on('click','.btn-submit',function(e){
+    e.preventDefault();
+    $('.regSection').hide();
+    $('.banner-container').remove();
+    $('.happ-container').css('margin-top','4rem');
+    $('.otpSection').show();
+  });
+</script>
+</html>
