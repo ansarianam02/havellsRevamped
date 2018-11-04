@@ -9,7 +9,10 @@ body{
 
 }
 body.doorPage{
+ 
    background-image: radial-gradient(circle at 53% 50%, #c86dd7, #3023ae) !important;
+    background-size: contain;
+    background-repeat-y: repeat;
 }
 .navbar-inverse .navbar-nav > li > a{
   color: white !important;
