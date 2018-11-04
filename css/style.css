@@ -219,9 +219,7 @@ span.fire::after {
 body.register-page{
    background-image: radial-gradient(circle at 53% 50%, #c86dd7, #3023ae) !important;
 }
-body.doorPage{
-  height: auto !important;
-}
+
    img.d-block.w-100 {
     height: 14em !important;
 }
@@ -349,10 +347,6 @@ body.doorPage{
   body.register-page{
    background-image: radial-gradient(circle at 53% 50%, #c86dd7, #3023ae) !important;
 }
-
-body.doorPage{
-  height: auto !important;
-}
   .nav-only-cell{
   display: block !important;
   }
@@ -472,9 +466,6 @@ body.doorPage{
 @media (min-width: 768px) and (max-width: 991px) {
   body.register-page{
    background-image: radial-gradient(circle at 53% 50%, #c86dd7, #3023ae) !important;
-}
-body.doorPage{
-  height: auto !important;
 }
   .nav-only-cell{
   display: block !important;
