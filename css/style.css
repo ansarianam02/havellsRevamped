@@ -358,6 +358,12 @@ body.register-page{
   .banner-container {   
       margin-top: -5rem !important;
   }
+  .doorPage .footer-section{
+     position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+  }
 }
 /*
 // 2 Small devices (landscape phones, 576px and up)*/
@@ -487,6 +493,12 @@ body.register-page{
    }
    .banner-container {   
       margin-top: -5rem !important;
+  }
+ .doorPage .footer-section{
+     position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
   }
 }
 /*
