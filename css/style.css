@@ -192,15 +192,15 @@ span.fire::after {
   position: relative;
 }
 .happiness::before{
-  content: '';
+ content: '';
     display: inline-block;
-    background: url(../img/happ.png);
+    background: url(../img/happiness.png);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 20%;
+    width: 69%;
+    height: 32%;
     position: absolute;
-    top: -111px;
-    left: 104px;
+    top: -151px;
+    left: 53px;
 }
 
 .congrats-msg::before{
