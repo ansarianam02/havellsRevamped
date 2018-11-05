@@ -421,12 +421,12 @@ body.register-page{
    color: #d51a1b !important;
 }
 
-  .main-area.stage{
+  /*.main-area.stage{
     background:none !important;
   }
   .main-area.stage-congrats{
      background:none !important;    
-  }
+  }*/
   span.fire::before {
     background: url(../img/fire.gif);
     background-repeat: no-repeat;
@@ -502,12 +502,12 @@ body.register-page{
    }
    .center-border{
    }
-    .main-area.stage{
+   /* .main-area.stage{
     background:none !important;
   }
   .main-area.stage-congrats{
      background:none !important;    
-  }
+  }*/
 
  }
 /*
