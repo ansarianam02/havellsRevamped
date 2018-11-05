@@ -5,17 +5,16 @@ html, body {
 }
 body{
   font-family: SourceSansPro;
-  background: url(../img/bg.png);
-  background-size: cover;
-  background-repeat: no-repeat; 
+  background: url(../img/bg.jpg);
+  background-size: 112% 87%;
+  background-repeat: repeat; 
  /* height: 100vh;*/
 
 }
-body.doorPage{
- 
-   background-image: radial-gradient(circle at 53% 50%, #c86dd7, #3023ae) !important;
-    background-size: contain;
-    background-repeat-y: repeat;
+body.doorPage{ 
+   background-image: url(../img/regist-mbl-bg.png);
+    background-size: 100% 100%;
+    background-repeat: repeat;
 }
 .navbar-inverse .navbar-nav > li > a{
   color: white !important;
@@ -156,8 +155,8 @@ span.fire::after {
 }
 .mega-container {
  background: url(../img/mega.png);
-    background-size: 49% 80%;
-    background-position: 47% 0%;
+    background-size: 39% 64%;
+    background-position: 52% 0%;
     background-repeat: no-repeat;
 }
 
@@ -215,12 +214,21 @@ span.fire::after {
     left: 31%;
     background-repeat: no-repeat;
 }
-
+.backImg{
+      background: url(../img/backImg.png);
+    height: 47rem;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 9em;
+    display: inline-block;
+    width: 24em;
+    left: 0.4rem;
+}
 /*
 //1  phones*/
 @media (max-width: 575px) { 
 body.register-page{
-   background-image: radial-gradient(circle at 53% 50%, #c86dd7, #3023ae) !important;
+   background-image: url('../img/regist-mbl-bg.png') !important;
 }
 
    img.d-block.w-100 {
@@ -322,7 +330,7 @@ body.register-page{
     top: 9em;
   }
   .congrats-msg::before {
-    content: '';
+        content: '';
     background: url(../img/congratulations.png);
     height: 200px;
     width: 400px;
@@ -331,6 +339,8 @@ body.register-page{
     top: -6px;
     left: 19%;
     background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 25% 1%;
 }
 .happiness::before {
     content: '';
@@ -347,8 +357,8 @@ body.register-page{
 /*
 // 2 Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) { 
-  body.register-page{
-   background-image: radial-gradient(circle at 53% 50%, #c86dd7, #3023ae) !important;
+ body.register-page{
+   background-image: url('../img/regist-mbl-bg.png') !important;
 }
   .nav-only-cell{
   display: block !important;
@@ -442,7 +452,7 @@ body.register-page{
      top: 9em;
   }
   .congrats-msg::before {
-    content: '';
+        content: '';
     background: url(../img/congratulations.png);
     height: 200px;
     width: 400px;
@@ -451,6 +461,8 @@ body.register-page{
     top: -6px;
     left: 19%;
     background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 25% 1%;
 }
 .happiness::before {
     content: '';
@@ -468,7 +480,7 @@ body.register-page{
 // 3 Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) {
   body.register-page{
-   background-image: radial-gradient(circle at 53% 50%, #c86dd7, #3023ae) !important;
+   background-image: url('../img/regist-mbl-bg.png') !important;
 }
   .nav-only-cell{
   display: block !important;
@@ -602,9 +614,9 @@ input::placeholder{
   }
   .main-area.stage{
     background: url(../img/stage.png);
-    background-size: 100% 100%;
-    /*padding-top: 10%;
-    padding-bottom: 5%;*/
+    background-size: 100% 64%;
+    background-repeat: no-repeat;
+    background-position: 50%;
   }
   .main-area.stage-congrats{
          background: url(../img/stage-congrats.png) ;
