@@ -118,31 +118,27 @@
 
         $( ".prize" ).animate({
                 opacity: 1,   
-          }, 100 ).animate({
-                width: "118%",height: "68%",left: "-9%",top: "13%" ,opacity: 1,   
-          }, 1500 ,function(){
+          }, 100 ,function(){
             //after gift open
              $('.doorContainer').removeClass('happiness');
              $('.stage').addClass('stage-congrats');
           $('.congrats-msg').css('visibility','visible');
              $('.congrats-msg').animate({              
                opacity:1 
-             },1500);
+             },500);
            $('.section-redirect').animate({
                 opacity: 1
-               }, 1500 );
+               }, 500 );
+
+          }).animate({
+                width: "118%",height: "68%",left: "-9%",top: "13%" ,opacity: 1,   
+          }, 500 ,function(){
+            
           });
 
          
       });
   });   
-/*
-opacity: 1;
-    width: 118%;
-    height: 67%;
-    left: -9%;
-    top: 13%;
-    */
 
   $(document).on('click','.btn-redirect',function(){ 
       window.location.href = "index.html";
