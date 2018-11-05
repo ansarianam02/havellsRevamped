@@ -56,6 +56,7 @@
        <div class="doorContainer happiness">
         <div class="doorStation ">
             <div class="closedoor"></div>
+            <div class="opendoor" style="display: none"></div>
             <div class="prize"></div>
         </div>
 
@@ -148,8 +149,11 @@
       $('.closedoor').fadeTo('slow', 1, function()
       {
         //change Door Image
-          $(this).css('background-image', 'url(img/open.png)');
-
+          //$(this).css('background-image', 'url(img/open.png)');
+          $(this).hide();
+          $('.opendoor').show().animate({
+                opacity: 1,   
+          });
 
       }).fadeTo(10, 1,function(){
         //show Gift and remove happiness
