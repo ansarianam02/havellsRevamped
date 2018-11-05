@@ -149,7 +149,7 @@
 
             <div class="col-md-12 mt-4">
               <div class="form-group">
-                <button type="submit" class="btn btn-submit">VALIDATE WITH OTP</button>
+                <button type="submit" class="btn btn-submit validate-otp">VALIDATE WITH OTP</button>
                </div>
             </div>  
         </div>
@@ -262,6 +262,10 @@
     $('.banner-container').remove();
     $('.happ-container').css('margin-top','4rem');
     $('.otpSection').show();
+  });
+
+   $(document).on('click','.validate-otp',function(e){
+    window.location = "prize-one.html";
   });
 </script>
 </html>
