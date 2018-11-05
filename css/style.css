@@ -12,9 +12,9 @@ body{
 
 }
 body.doorPage{ 
-   background-image: url(../img/regist-mbl-bg.png);
-    background-size: 100% 100%;
-    background-repeat: repeat;
+   background-image: url(../img/regist-mbl-bg-door.png);
+       background-size: cover;
+    background-repeat: no-repeat;
 }
 .navbar-inverse .navbar-nav > li > a{
   color: white !important;
@@ -114,12 +114,7 @@ span.fire::after {
   color: #4a4a4a;
   font-size: 1em;
 }
-.footer-section{
-      position: fixed;
-    bottom: 0;
-    display: block;
-    width: 100%;
-}
+
 .footer-copyright{
   background:#ffce7b;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
@@ -224,6 +219,9 @@ span.fire::after {
     width: 24em;
     left: 0.4rem;
 }
+.font-weight-bold {
+    font-weight: 700!important;
+  }
 /*
 //1  phones*/
 @media (max-width: 575px) { 
@@ -238,7 +236,8 @@ body.register-page{
   display: block !important;
   }
   .doorPage .main-area{    
-    margin-top:30% !important;
+   /* margin-top:30% !important;*/
+    padding-top: 6.5rem !important;
   }
   .register.main-area{
     margin-top:10% !important;
@@ -256,7 +255,7 @@ body.register-page{
       background-size: 100% 100% !important;
       background-repeat: no-repeat !important;
          padding-top: 85% !important;*/
-    padding-bottom: 15% !important;
+    padding-bottom: 2% !important;
     padding-left: 30%;    
     position: relative;
   }
@@ -274,19 +273,21 @@ body.register-page{
     top: -15px;
     left: -143px;
     padding: 27px 0 0 115px;
+    margin-top: 0rem !important;
    }
-  .doorStation {
-        width: 168px !important;
-    height: 170px !important;
+ .doorStation {
+    width: 245px !important;
+    height: 280px !important;
     position: relative;
-
-  }
+    margin-left: -4.5rem;
+}
   .two-door-section{
     margin-left: -10% !important;
     margin-bottom: 20%;
   }
   .navbar-brand img {   
-    z-index: -1;
+        height: 6rem;
+    width: 7rem;
   }
   .navbar-inverse .navbar-collapse{
   background: white;
@@ -298,12 +299,13 @@ body.register-page{
   .navbar-inverse .navbar-nav > li > a{
      color: #d51a1b !important;
   }
-  /*.main-area.stage{
+  .main-area.stage{
     background:none !important;
   }
   .main-area.stage-congrats{
-     background:none !important;    
-  }*/
+     background: url(../img/stage-congratsM.png) !important;  
+         background-size: 100% 110% !important; 
+  }
 
   span.fire::before {
     background: url(../img/fire.gif);
@@ -315,7 +317,7 @@ body.register-page{
     width: 210px;
     position: absolute;
     right: 140px;
-    top: 9em;
+    top: -2em;
 }
   span.fire::after {
     background: url(../img/fire.gif);
@@ -327,7 +329,7 @@ body.register-page{
     width: 210px;
     position: absolute;
     left: 246px;
-    top: 9em;
+    top: -2em;
   }
   .congrats-msg::before {
         content: '';
@@ -353,6 +355,9 @@ body.register-page{
     top: -86px;
     left: 8px;
 }
+  .banner-container {   
+      margin-top: -5rem !important;
+  }
 }
 /*
 // 2 Small devices (landscape phones, 576px and up)*/
@@ -364,7 +369,8 @@ body.register-page{
   display: block !important;
   }
   .doorPage .main-area{
-    margin-top:30% !important;
+   /* margin-top:30% !important;*/
+    padding-top: 6.5rem !important;
   }
   .register.main-area{
     margin-top:10% !important;
@@ -373,16 +379,17 @@ body.register-page{
     width: 90% !important;
   }
   .doorStation {
-    width: 260px !important;
-    height: 185px !important;    
+       width: 245px !important;
+    height: 280px !important;
     position: relative;
-  }
+    margin-left: -4.5rem;
+}
   .stage {
      /* background: url(../img/stageM.png) !important;
       background-size:100% 100% !important;
       background-repeat: no-repeat !important;
       padding-top: 85% !important;*/
-      padding-bottom: 15% !important;
+      padding-bottom: 2% !important;
       padding-left: 31%;
       position: relative;
   }
@@ -399,6 +406,7 @@ body.register-page{
     top: -15px;
     left: -143px;
     padding: 27px 0 0 115px;
+    margin-top: 0rem !important;
   }
   .two-door-section{
     margin-left: -10% !important;
@@ -408,7 +416,8 @@ body.register-page{
     margin-top:6%;
   }
   .navbar-brand img {   
-    z-index: -1;
+        height: 6rem;
+    width: 7rem;
   }
   .navbar-inverse .navbar-collapse{
   background: white;
@@ -421,12 +430,13 @@ body.register-page{
    color: #d51a1b !important;
 }
 
-  /*.main-area.stage{
+  .main-area.stage{
     background:none !important;
   }
   .main-area.stage-congrats{
-     background:none !important;    
-  }*/
+    background: url(../img/stage-congratsM.png) !important; 
+        background-size: 100% 110% !important;  
+  }
   span.fire::before {
     background: url(../img/fire.gif);
     background-repeat: no-repeat;
@@ -437,7 +447,7 @@ body.register-page{
     width: 210px;
     position: absolute;
     right: 140px;
-    top: 9em;
+    top: -2em;
 }
   span.fire::after {
     background: url(../img/fire.gif);
@@ -449,7 +459,7 @@ body.register-page{
     width: 210px;
     position: absolute;
     left: 246px;
-     top: 9em;
+     top: -2em;
   }
   .congrats-msg::before {
         content: '';
@@ -474,7 +484,10 @@ body.register-page{
     position: absolute;
     top: -86px;
     left: 8px;
-}
+   }
+   .banner-container {   
+      margin-top: -5rem !important;
+  }
 }
 /*
 // 3 Medium devices (tablets, 768px and up)*/
@@ -487,6 +500,7 @@ body.register-page{
   }
   .doorPage .main-area{
     margin-top:10%;
+    padding-top: 6.5rem !important;
   }
   .captcha-container{
     max-width: 100%
@@ -502,19 +516,22 @@ body.register-page{
    }
    .center-border{
    }
-   /* .main-area.stage{
+   .main-area.stage{
     background:none !important;
   }
   .main-area.stage-congrats{
-     background:none !important;    
-  }*/
-
+     background: url(../img/stage-congratsM.png) !important;  
+         background-size: 100% 110% !important;  
+  }
+  .banner-container {   
+      margin-top: -5rem !important;
+  }
  }
 /*
 // 4 Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) { 
   body{
-    padding-bottom: 8%;
+    /*padding-bottom: 8%;*/
   }
   .main-area{
     margin-top:10%;
@@ -529,12 +546,18 @@ body.register-page{
    .center-border{
    
    }
+   .footer-section{
+     position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+  }
  }
 /*
 // 5 Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {  
   body{
-    padding-bottom: 8%;
+   /* padding-bottom: 8%;*/
   }
   .main-area{
     margin-top:5%;
@@ -549,6 +572,12 @@ body.register-page{
    .center-border{
     
     }
+  .footer-section{
+     position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+  }
 }
 
 
@@ -644,3 +673,5 @@ input::placeholder{
     background-image: url('data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(213,26,27)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>'');
 
   }
+
+  
