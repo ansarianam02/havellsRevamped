@@ -6,7 +6,7 @@ html, body {
 body{
   font-family: SourceSansPro;
   background: url(../img/bg.jpg);
-  background-size: 112% 87%;
+  background-size: 100% 87%;
   background-repeat: repeat; 
  /* height: 100vh;*/
 
@@ -210,13 +210,13 @@ span.fire::after {
     background-repeat: no-repeat;
 }
 .backImg{
-      background: url(../img/backImg.png);
-    height: 47rem;
+        background: url(../img/backImg.png);
+    height: 36rem;
     background-size: 100% 100%;
     position: absolute;
-    top: 9em;
+    top: 12.7em;
     display: inline-block;
-    width: 24em;
+    width: 17em;
     left: 0.4rem;
 }
 .font-weight-bold {
@@ -237,7 +237,7 @@ body.register-page{
   }
   .doorPage .main-area{    
    /* margin-top:30% !important;*/
-    padding-top: 5.5rem !important;
+    padding-top: 4.2rem !important;
   }
   .register.main-area{
     margin-top:10% !important;
@@ -365,6 +365,9 @@ body.register-page{
     width: 100%;
   }
 }
+.navbar-inverse .navbar-nav > li > a{
+  cursor: pointer;
+}
 /*
 // 2 Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) { 
@@ -376,7 +379,7 @@ body.register-page{
   }
   .doorPage .main-area{
    /* margin-top:30% !important;*/
-    padding-top: 5.5rem !important;
+   padding-top: 4.2rem !important;
   }
   .register.main-area{
     margin-top:10% !important;
@@ -512,7 +515,7 @@ body.register-page{
   }
   .doorPage .main-area{
     margin-top:10%;
-    padding-top: 5.5rem !important;
+    padding-top: 4.2rem !important;
   }
   .captcha-container{
     max-width: 100%
