@@ -303,6 +303,7 @@ body.register-page{
     height: 300px !important;
     position: relative;
     margin-left: -3.5rem;
+    cursor: pointer;
 }
   .two-door-section{
     margin-left: -10% !important;
