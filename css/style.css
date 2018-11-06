@@ -251,7 +251,7 @@ body.register-page{
   }
   .doorPage .main-area{    
    /* margin-top:30% !important;*/
-    padding-top: 4.2rem !important;
+   /* padding-top: 4.2rem !important;*/
   }
   .register.main-area{
     margin-top:10% !important;
@@ -418,7 +418,7 @@ button.btn.btn-claim.btn-claim {
   }
   .doorPage .main-area{
    /* margin-top:30% !important;*/
-   padding-top: 4.2rem !important;
+  /* padding-top: 4.2rem !important;*/
   }
   .register.main-area{
     margin-top:10% !important;
