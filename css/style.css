@@ -25,6 +25,7 @@ body.doorPage{
 }
 .navbar-inverse .navbar-nav > li > a{
   color: white !important;
+  cursor: pointer;
 }
 .navbar{
   background: none !important;
@@ -207,7 +208,7 @@ span.fire::after {
 
 .congrats-msg::before{
     content: '';
-    background: url(../img/congratulations.png);
+    background: url(../img/congratulations.svg);
     height: 8%;
     width: 26%;
     display: inline-block;
@@ -233,6 +234,27 @@ span.fire::after {
 
 
   /*modal position*/
+.modal-body.claim-body{
+  position: relative;
+  margin: 1rem 0;
+  text-align: center;
+}
+.modal-body.claim-body p{
+  margin-top: 1rem;
+      text-align: center;
+}
+.modal-body.claim-body p{
+  margin-top: 1rem;
+      text-align: center;
+}
+.modal-body.claim-body::before {
+    content: '';
+    background: url('../img/success.svg');
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 10rem;
+    width: 29rem; 
+}
 .details .modal-dialog{
   margin-top: 15rem;
 }
@@ -245,6 +267,11 @@ button.btn.btn-claim.btn-claim {
     padding: 0.5rem 2rem;
     cursor: pointer;
 }
+
+.modal-body.contact-body p{
+      text-align: center;
+}
+
 /*
 //1  phones*/
 @media (max-width: 575px) { 
@@ -357,7 +384,7 @@ body.register-page{
   }
   .congrats-msg::before {
         content: '';
-    background: url(../img/congratulations.png);
+    background: url(../img/congratulations.svg);
     height: 200px;
     width: 400px;
     display: inline-block;
@@ -402,23 +429,7 @@ button.btn.btn-claim.btn-claim {
     cursor: pointer;
 }
 
-.modal-body.claim-body{
-  position: relative;
-  margin: 1rem 0;
-  text-align: center;
-}
-.modal-body.claim-body p{
-  margin-top: 1rem;
-      text-align: center;
-}
-.modal-body.claim-body::before {
-    content: '';
-    background: url('../img/success.svg');
-    background-size: 100% 100%;
-    display: inline-block;
-    height: 10rem;
-    width: 29rem; 
-}
+
 }
 /*
 // 2 Small devices (landscape phones, 576px and up)*/
@@ -524,7 +535,7 @@ button.btn.btn-claim.btn-claim {
   }
   .congrats-msg::before {
         content: '';
-    background: url(../img/congratulations.png);
+    background: url(../img/congratulations.svg);
     height: 200px;
     width: 400px;
     display: inline-block;
