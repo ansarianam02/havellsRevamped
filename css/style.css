@@ -753,6 +753,7 @@ input::placeholder{
     background: url(../img/stage-congrats.png) ;
     background-size: 100% 85% !important;
     background-repeat: no-repeat;
+    background-position: 0 40%;
   }
   .congrats-msg {
     visibility: hidden;
