@@ -386,7 +386,7 @@ body.register-page{
         content: '';
     background: url(../img/congratulations.svg);
     height: 200px;
-    width: 400px;
+    width: 432px;
     display: inline-block;
     position: absolute;
     top: -6px;
@@ -537,7 +537,7 @@ button.btn.btn-claim.btn-claim {
         content: '';
     background: url(../img/congratulations.svg);
     height: 200px;
-    width: 400px;
+        width: 432px;
     display: inline-block;
     position: absolute;
     top: -6px;
