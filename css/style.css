@@ -208,13 +208,14 @@ span.fire::after {
 .congrats-msg::before{
     content: '';
     background: url(../img/congratulations.png);
-    height: 7%;
-    width: 46%;
+    height: 8%;
+    width: 26%;
     display: inline-block;
     position: absolute;
     top: -6px;
-    left: 40%;
+    left: 37%;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .backImg{
         background: url(../img/backImg.png);
