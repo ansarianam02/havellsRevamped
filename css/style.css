@@ -293,7 +293,7 @@ body.register-page{
   .congrats-msg {
     position: absolute;
     top: -15px;
-    left: -154px;
+    left: -16rem;
     padding: 27px 0 0 115px;
     margin-top: 0rem !important;
    }
