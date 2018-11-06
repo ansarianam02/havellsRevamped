@@ -197,7 +197,9 @@
   
 </body>
 <script type="text/javascript">
-
+  $(document).on('click','.doorContainer .doorStation',function(){
+     alert('click ****** ');
+  });
   $(document).on('click','.doorStation',function(){
     alert('click catch')
       $('.closedoor').fadeTo('slow', 1, function()
