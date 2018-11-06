@@ -1,5 +1,12 @@
 
 /*common css*/
+@font-face {
+font-family: "ArialRoundedMT";
+src: 
+url("ArialRoundedMT.otf") format("opentype"),
+}
+
+
 html, body {
     overflow: auto;
 }
@@ -722,7 +729,7 @@ input::placeholder{
   .congrats-msg {
     visibility: hidden;
     opacity: 0;
-    font-family: ArialRoundedMT !important;
+    font-family:ArialRoundedMT !important;
     font-size: 2.2rem;
   }
 
