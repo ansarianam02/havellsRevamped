@@ -291,7 +291,7 @@ body.register-page{
    }
  .doorStation {
     width: 245px !important;
-    height: 280px !important;
+    height: 300px !important;
     position: relative;
     margin-left: -4.5rem;
 }
@@ -428,7 +428,7 @@ button.btn.btn-claim.btn-claim {
   }
   .doorStation {
        width: 245px !important;
-    height: 280px !important;
+    height: 300px !important;
     position: relative;
     margin-left: -4.5rem;
 }
