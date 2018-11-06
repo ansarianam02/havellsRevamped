@@ -271,7 +271,9 @@ button.btn.btn-claim.btn-claim {
 .modal-body.contact-body p{
       text-align: center;
 }
-
+.doorStation .closedoor , .doorStation .opendoor{
+  cursor: pointer;
+}
 /*
 //1  phones*/
 @media (max-width: 575px) { 
@@ -330,8 +332,9 @@ body.register-page{
     height: 300px !important;
     position: relative;
     margin-left: -3.5rem;
-    cursor: pointer;
+    cursor: pointer !important;
 }
+
   .two-door-section{
     margin-left: -10% !important;
     margin-bottom: 20%;
@@ -616,7 +619,7 @@ button.btn.btn-claim.btn-claim {
   }
   .main-area{
     margin-top:0;
-    padding: 0 5em;
+    padding:4rem 5em;
   }
   .two-door-section{
     margin-left:10%;
@@ -645,7 +648,7 @@ button.btn.btn-claim.btn-claim {
   }
   .main-area{
     margin-top:0;
-    padding: 0 5em;
+    padding: 4rem 5em;
   }
   .two-door-section{
     margin-left:10%;
