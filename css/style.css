@@ -358,12 +358,12 @@ body.register-page{
   .banner-container {   
       margin-top: -5rem !important;
   }
- /* .doorPage .footer-section{
+  .doorPage .footer-section{
      position: fixed;
     bottom: 0;
     display: block;
     width: 100%;
-  }*/
+  }
 }
 .navbar-inverse .navbar-nav > li > a{
   cursor: pointer;
@@ -497,12 +497,12 @@ body.register-page{
    .banner-container {   
       margin-top: -5rem !important;
   }
- /*.doorPage .footer-section{
+ .doorPage .footer-section{
      position: fixed;
     bottom: 0;
     display: block;
     width: 100%;
-  }*/
+  }
 }
 /*
 // 3 Medium devices (tablets, 768px and up)*/
@@ -561,12 +561,12 @@ body.register-page{
    .center-border{
    
    }
-   /*.footer-section{
+   .footer-section{
      position: fixed;
     bottom: 0;
     display: block;
     width: 100%;
-  }*/
+  }
  }
 /*
 // 5 Extra large devices (large desktops, 1200px and up)*/
@@ -587,12 +587,12 @@ body.register-page{
    .center-border{
     
     }
- /* .footer-section{
+  .footer-section{
      position: fixed;
     bottom: 0;
     display: block;
     width: 100%;
-  }*/
+  }
 }
 
 
