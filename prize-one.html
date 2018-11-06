@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>HAVELLS</title>
+  <title>Havells - Open the door to happiness</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -31,10 +31,10 @@
       </div>
       <div class="navbar-collapse collapse" id="myNavbar" style="height: 1px;" aria-expanded="false">
         
-        <ul class="nav navbar-nav navbar-right">
-          <li><a data-toggle="modal" data-target="#myModal"><span></span>Terms and conditions</a>
+        <ul class="nav navbar-nav navbar-right mt-4 mr-2">
+          <li ><a data-toggle="modal" data-target="#myModal"><span></span>Terms and conditions</a>
               </li>
-          <li><a href="#" ><span class=""></span>Contact us</a>
+          <li><a  data-toggle="modal" data-target="#contactModal"><span class=""></span>Contact us</a>
               </li>
         </ul>
       </div>
@@ -50,8 +50,8 @@
       <div class="">
        <div class="row justify-content-md-center ">
        
-        <p class="congrats-msg yellow-t my-5">
-          You have won an 1.5 ton air conditioner. <span class="fire"></span>
+        <p class="congrats-msg yellow-t mb-1 mt-5">
+          You have won an 1.5 ton air <br/>conditioner. <span class="fire"></span>
         </p>
        <div class="doorContainer happiness">
         <div class="doorStation ">
@@ -128,7 +128,7 @@
 </div>
 
 
-<div id="claimModal" class="modal fade " role="dialog">
+<div id="claimModal" class="modal fade details" role="dialog">
   <div class="modal-dialog modal-lg">
 
     <!-- Modal content-->
@@ -140,6 +140,30 @@
         <p>
            Your order has been noted. You will receive an update from our team within XX hours.
           For further queries write to XXX@bigcity.in or call XXXXXXX
+        </p>
+      <p>
+        Thank you.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default claim-close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="contactModal" class="modal fade details" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Contact US !!</h4>
+      </div>
+      <div class="modal-body ">
+        <p>
+           Contac Us ::
         </p>
       <p>
         Thank you.
@@ -208,9 +232,10 @@
       });
   });   
 
-  $(document).on('click','.btn-redirect',function(){ 
+  $(document).on('click','.claim-close',function(){ 
       window.location.href = "index.html";
   })
+
 </script>
 
 </html>
