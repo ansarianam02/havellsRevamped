@@ -368,6 +368,29 @@ body.register-page{
 .navbar-inverse .navbar-nav > li > a{
   cursor: pointer;
 }
+button.btn.btn-claim.btn-claim {
+    border-radius: 5rem;
+    background: #ce0e2d;
+    color: white;
+    font-size: 1.6rem;
+}
+.modal-body.claim-body{
+  position: relative;
+  margin: 1rem 0;
+  text-align: center;
+}
+.modal-body.claim-body p{
+  margin-top: 1rem;
+      text-align: center;
+}
+.modal-body.claim-body::before {
+    content: '';
+    background: url('../img/success.svg');
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 10rem;
+    width: 29rem; 
+}
 /*
 // 2 Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) { 
@@ -541,6 +564,9 @@ body.register-page{
   .banner-container {   
       margin-top: -5rem !important;
   }
+  .modal-lg {
+    width: 600px;
+  }
  }
 /*
 // 4 Large devices (desktops, 992px and up)*/
@@ -562,10 +588,13 @@ body.register-page{
    
    }
    .footer-section{
-     position: fixed;
+     /*position: fixed;*/
     bottom: 0;
     display: block;
     width: 100%;
+  }
+   .modal-lg {
+    width: 600px;
   }
  }
 /*
@@ -588,10 +617,13 @@ body.register-page{
     
     }
   .footer-section{
-     position: fixed;
+     /*position: fixed;*/
     bottom: 0;
     display: block;
     width: 100%;
+  }
+   .modal-lg {
+    width: 600px;
   }
 }
 
