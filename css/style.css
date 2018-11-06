@@ -206,7 +206,7 @@ span.fire::after {
     display: inline-block;
     position: absolute;
     top: -6px;
-    left: 32%;
+    left: 40%;
     background-repeat: no-repeat;
 }
 .backImg{
@@ -222,6 +222,13 @@ span.fire::after {
 .font-weight-bold {
     font-weight: 700!important;
   }
+
+
+  /*modal position*/
+.details .modal-dialog{
+  margin-top: 15rem;
+}
+
 /*
 //1  phones*/
 @media (max-width: 575px) { 
@@ -271,7 +278,7 @@ body.register-page{
   .congrats-msg {
     position: absolute;
     top: -15px;
-    left: -143px;
+    left: -154px;
     padding: 27px 0 0 115px;
     margin-top: 0rem !important;
    }
@@ -317,7 +324,7 @@ body.register-page{
     width: 210px;
     position: absolute;
     right: 140px;
-    top: -2em;
+    top: 2em;
 }
   span.fire::after {
     background: url(../img/fire.gif);
@@ -329,7 +336,7 @@ body.register-page{
     width: 210px;
     position: absolute;
     left: 246px;
-    top: -2em;
+    top: 2em;
   }
   .congrats-msg::before {
         content: '';
@@ -339,9 +346,9 @@ body.register-page{
     display: inline-block;
     position: absolute;
     top: -6px;
-    left: 19%;
+    left: 23%;
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 46%;
     background-position: 25% 1%;
 }
 .happiness::before {
@@ -373,6 +380,8 @@ button.btn.btn-claim.btn-claim {
     background: #ce0e2d;
     color: white;
     font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
 }
 .modal-body.claim-body{
   position: relative;
@@ -436,7 +445,7 @@ button.btn.btn-claim.btn-claim {
   .congrats-msg {
     position: absolute;
     top: -15px;
-    left: -143px;
+    left: -154px;
     padding: 27px 0 0 115px;
     margin-top: 0rem !important;
   }
@@ -479,7 +488,7 @@ button.btn.btn-claim.btn-claim {
     width: 210px;
     position: absolute;
     right: 140px;
-    top: -2em;
+    top: 2em;
 }
   span.fire::after {
     background: url(../img/fire.gif);
@@ -491,7 +500,7 @@ button.btn.btn-claim.btn-claim {
     width: 210px;
     position: absolute;
     left: 246px;
-     top: -2em;
+     top: 2em;
   }
   .congrats-msg::before {
         content: '';
@@ -501,9 +510,9 @@ button.btn.btn-claim.btn-claim {
     display: inline-block;
     position: absolute;
     top: -6px;
-    left: 19%;
+    left: 23%;
     background-repeat: no-repeat;
-    background-size: 60%;
+       background-size: 46%;
     background-position: 25% 1%;
 }
 .happiness::before {
@@ -564,7 +573,7 @@ button.btn.btn-claim.btn-claim {
   .banner-container {   
       margin-top: -5rem !important;
   }
-  .modal-lg {
+  .details .modal-lg {
     width: 600px;
   }
  }
@@ -575,7 +584,7 @@ button.btn.btn-claim.btn-claim {
     /*padding-bottom: 8%;*/
   }
   .main-area{
-    margin-top:10%;
+    margin-top:0;
     padding: 0 5em;
   }
   .two-door-section{
@@ -588,12 +597,12 @@ button.btn.btn-claim.btn-claim {
    
    }
    .footer-section{
-     /*position: fixed;*/
+    position: fixed;
     bottom: 0;
     display: block;
     width: 100%;
   }
-   .modal-lg {
+  .details .modal-lg {
     width: 600px;
   }
  }
@@ -604,7 +613,7 @@ button.btn.btn-claim.btn-claim {
    /* padding-bottom: 8%;*/
   }
   .main-area{
-    margin-top:5%;
+    margin-top:0;
     padding: 0 5em;
   }
   .two-door-section{
@@ -617,16 +626,20 @@ button.btn.btn-claim.btn-claim {
     
     }
   .footer-section{
-     /*position: fixed;*/
+    position: fixed;
     bottom: 0;
     display: block;
     width: 100%;
   }
-   .modal-lg {
+  .details .modal-lg {
     width: 600px;
   }
 }
-
+@media (min-width: 992px){
+.modal-lg {
+    width: 1000px;
+}
+}
 
 /*form css*/
 input::placeholder{
@@ -659,7 +672,7 @@ input::placeholder{
 /* Gift Page */
  .doorStation{
     width: 370px;
-    height: 450px;
+    height: 410px;
     position: relative;
 
   }
@@ -708,7 +721,9 @@ input::placeholder{
   }
   .congrats-msg {
     visibility: hidden;
-    opacity: 0
+    opacity: 0;
+    font-family: ArialRoundedMT !important;
+    font-size: 2.2rem;
   }
 
   .btn-redirect{
