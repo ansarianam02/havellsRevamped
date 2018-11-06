@@ -72,7 +72,8 @@
   <!-- redirect -->
   <div class="row mt-5 justify-content-md-center section-redirect visible-md visible-lg visible-sm hidden-xs ">
       <div class="col-md-10  col-md-offset-1 text-center">        
-         <p class="redirect-msg yellow-t">Redirecting to home page in 10 seconds</p>
+         <!-- <p class="redirect-msg yellow-t">Redirecting to home page in 10 seconds</p> -->
+          <button type="button" class="btn btn-claim btn-claim" data-toggle="modal" data-target="#claimModal" data-backdrop="static" data-keyboard="false">Claim this reward</button>
       </div>
     </div>
     <!-- end redirect -->
@@ -84,7 +85,8 @@
   <div class="container hidden-md hidden-lg hidden-sm visible-xs">
   <div class="row justify-content-md-center section-redirect">
       <div class="col-md-10  col-md-offset-1 text-center">        
-         <p class="redirect-msg yellow-t">Redirecting to home page in <br/> 10 seconds</p>
+         <!-- <p class="redirect-msg yellow-t">Redirecting to home page in <br/> 10 seconds</p> -->
+         <button type="button" class="btn btn-claim btn-claim" data-toggle="modal" data-target="#claimModal" data-backdrop="static" data-keyboard="false"> Claim this reward</button>
       </div>
     </div>
   </div>
@@ -120,6 +122,30 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div id="claimModal" class="modal fade " role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Thank you for your order!</h4>
+      </div>
+      <div class="modal-body claim-body">
+        <p>
+           Your order has been noted. You will receive an update from our team within XX hours.
+          For further queries write to XXX@bigcity.in or call XXXXXXX
+        </p>
+      <p>
+        Thank you.
+        </p>
+      </div>
+     
     </div>
 
   </div>
